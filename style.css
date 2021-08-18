@@ -1,0 +1,32 @@
+h3
+{
+    font-size: 25px !important;
+    color: white;
+}
+.btn-info:hover
+{
+    background-color: lightskyblue;
+    width: 110px;
+    height: 30px;
+    padding: 5px;
+    color: mediumblue;
+}
+canvas
+{
+    margin-top: 50px;
+    animation-name: fayyad;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fayyad
+{
+    from {box-shadow: 1px 1px 48px rgb(255, 26, 159);}
+    to {box-shadow: 1px 1px 48px blue;}
+}
+
+body
+{
+    background-size: cover;
+    background-position: center;
+}
